@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# LaTeX
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.toc
+
+# SO
+.DS_Store
+Thumbs.db

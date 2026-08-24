@@ -1,0 +1,459 @@
+% referencias_eniac.bib
+% Referências do artigo ENIAC — Previsão de Finanças Públicas Multi-Paradigma
+
+% ── Livros fundamentais ──────────────────────────────────────────────────────
+
+@book{box2008time,
+  author    = {Box, George E. P. and Jenkins, Gwilym M. and Reinsel, Gregory C.
+               and Ljung, Greta M.},
+  title     = {Time Series Analysis: Forecasting and Control},
+  edition   = {5},
+  publisher = {John Wiley \& Sons},
+  address   = {Hoboken, NJ},
+  year      = {2015}
+}
+
+@book{hyndman2021forecasting,
+  author    = {Hyndman, Rob J. and Athanasopoulos, George},
+  title     = {Forecasting: Principles and Practice},
+  edition   = {3},
+  publisher = {OTexts},
+  address   = {Melbourne, Australia},
+  year      = {2021},
+  note      = {Disponível em: \url{https://otexts.com/fpp3/}}
+}
+
+% ── Survey abrangente ────────────────────────────────────────────────────────
+
+@article{petropoulos2022forecasting,
+  author    = {Petropoulos, Fotios and Apiletti, Daniele and Assimakopoulos, Vassilios
+               and Babai, Mohamed Zied and Barrow, Devon K. and {Ben Taieb}, Souhaib
+               and Bergmeir, Christoph and Bessa, Ricardo J. and Bijak, Jakub and
+               Boylan, John E. and others},
+  title     = {Forecasting: theory and practice},
+  journal   = {International Journal of Forecasting},
+  volume    = {38},
+  number    = {3},
+  pages     = {705--871},
+  year      = {2022},
+  doi       = {10.1016/j.ijforecast.2021.11.001}
+}
+
+% ── Competições de previsão ──────────────────────────────────────────────────
+
+@article{makridakis2000m3,
+  author    = {Makridakis, Spyros and Hibon, Michele},
+  title     = {The {M3-Competition}: results, conclusions and implications},
+  journal   = {International Journal of Forecasting},
+  volume    = {16},
+  number    = {4},
+  pages     = {451--476},
+  year      = {2000},
+  doi       = {10.1016/S0169-2070(00)00057-1}
+}
+
+@article{makridakis2018m4,
+  author    = {Makridakis, Spyros and Spiliotis, Evangelos and Assimakopoulos, Vassilios},
+  title     = {The {M4} Competition: Results, findings, conclusion and way forward},
+  journal   = {International Journal of Forecasting},
+  volume    = {34},
+  number    = {4},
+  pages     = {802--808},
+  year      = {2018},
+  doi       = {10.1016/j.ijforecast.2018.06.001}
+}
+
+@article{makridakis2022m5,
+  author    = {Makridakis, Spyros and Spiliotis, Evangelos and Assimakopoulos, Vassilios},
+  title     = {The {M5} accuracy competition: Results, findings, and conclusions},
+  journal   = {International Journal of Forecasting},
+  volume    = {38},
+  number    = {4},
+  pages     = {1346--1364},
+  year      = {2022},
+  doi       = {10.1016/j.ijforecast.2021.11.013}
+}
+
+% ── Paradigmas global e agrupado ─────────────────────────────────────────────
+
+@article{montero2021principles,
+  author    = {Montero-Manso, Pablo and Hyndman, Rob J.},
+  title     = {Principles and algorithms for forecasting groups of time series:
+               Locality and globality},
+  journal   = {International Journal of Forecasting},
+  volume    = {37},
+  number    = {4},
+  pages     = {1632--1653},
+  year      = {2021},
+  doi       = {10.1016/j.ijforecast.2021.03.004}
+}
+
+@article{bandara2020forecasting,
+  author    = {Bandara, Kasun and Bergmeir, Christoph and Smyl, Slawek},
+  title     = {Forecasting across time series databases using recurrent neural
+               networks on groups of similar series: a clustering approach},
+  journal   = {Expert Systems with Applications},
+  volume    = {140},
+  pages     = {112896},
+  year      = {2020},
+  doi       = {10.1016/j.eswa.2019.112896}
+}
+
+@inproceedings{oreshkin2020nbeats,
+  author    = {Oreshkin, Boris N. and Carpov, Dmitri and Chapados, Nicolas
+               and Bengio, Yoshua},
+  title     = {{N-BEATS}: Neural basis expansion analysis for interpretable
+               time series forecasting},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2020}
+}
+
+% ── Modelos ARIMA e seleção automática ──────────────────────────────────────
+
+@article{hyndman2008automatic,
+  author    = {Hyndman, Rob J. and Khandakar, Yeasmin},
+  title     = {Automatic time series forecasting: the \texttt{forecast}
+               package for {R}},
+  journal   = {Journal of Statistical Software},
+  volume    = {27},
+  number    = {3},
+  pages     = {1--22},
+  year      = {2008},
+  doi       = {10.18637/jss.v027.i03}
+}
+
+% ── Ridge regression ─────────────────────────────────────────────────────────
+
+@article{hoerl1970ridge,
+  author    = {Hoerl, Arthur E. and Kennard, Robert W.},
+  title     = {Ridge regression: Biased estimation for nonorthogonal problems},
+  journal   = {Technometrics},
+  volume    = {12},
+  number    = {1},
+  pages     = {55--67},
+  year      = {1970},
+  doi       = {10.1080/00401706.1970.10488634}
+}
+
+@article{tikhonov1977solutions,
+  author    = {Tikhonov, Andrei N. and Arsenin, Vasiliy Ya.},
+  title     = {Solutions of Ill-Posed Problems},
+  journal   = {Winston \& Sons},
+  year      = {1977},
+  note      = {Tradução do russo; regularização Ridge é equivalente à
+               regularização de Tikhonov de ordem zero.}
+}
+
+% ── SVR ─────────────────────────────────────────────────────────────────────
+
+@article{smola2004tutorial,
+  author    = {Smola, Alex J. and Sch{\"o}lkopf, Bernhard},
+  title     = {A tutorial on support vector regression},
+  journal   = {Statistics and Computing},
+  volume    = {14},
+  number    = {3},
+  pages     = {199--222},
+  year      = {2004},
+  doi       = {10.1023/B:STCO.0000035301.49549.88}
+}
+
+@article{kim2003financial,
+  author    = {Kim, Kyoung-jae},
+  title     = {Financial time series forecasting using support vector machines},
+  journal   = {Neurocomputing},
+  volume    = {55},
+  number    = {1--2},
+  pages     = {307--319},
+  year      = {2003},
+  doi       = {10.1016/S0925-2312(03)00372-2}
+}
+
+% ── MLP / redes neurais ──────────────────────────────────────────────────────
+
+@article{hornik1989multilayer,
+  author    = {Hornik, Kurt and Stinchcombe, Maxwell and White, Halbert},
+  title     = {Multilayer feedforward networks are universal approximators},
+  journal   = {Neural Networks},
+  volume    = {2},
+  number    = {5},
+  pages     = {359--366},
+  year      = {1989},
+  doi       = {10.1016/0893-6080(89)90020-8}
+}
+
+@article{zhang2003time,
+  author    = {Zhang, G. Peter},
+  title     = {Time series forecasting using a hybrid {ARIMA} and neural
+               network model},
+  journal   = {Neurocomputing},
+  volume    = {50},
+  pages     = {159--175},
+  year      = {2003},
+  doi       = {10.1016/S0925-2312(01)00702-0}
+}
+
+% ── Random Forest e LightGBM ─────────────────────────────────────────────────
+
+@article{breiman2001random,
+  author    = {Breiman, Leo},
+  title     = {Random forests},
+  journal   = {Machine Learning},
+  volume    = {45},
+  number    = {1},
+  pages     = {5--32},
+  year      = {2001},
+  doi       = {10.1023/A:1010933404324}
+}
+
+@inproceedings{ke2017lightgbm,
+  author    = {Ke, Guolin and Meng, Qi and Finley, Thomas and Wang, Taifeng
+               and Chen, Wei and Ma, Weidong and Ye, Qiwei and Liu, Tie-Yan},
+  title     = {{LightGBM}: A highly efficient gradient boosting decision tree},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  volume    = {30},
+  pages     = {3146--3154},
+  year      = {2017}
+}
+
+% ── Estratégias multi-step ────────────────────────────────────────────────────
+
+@article{taieb2012review,
+  author    = {{Ben Taieb}, Souhaib and Bontempi, Gianluca and Atiya, Amir F.
+               and Sorjamaa, Antti},
+  title     = {A review and comparison of strategies for multi-step ahead
+               time series forecasting based on the {NN5} forecasting competition},
+  journal   = {Expert Systems with Applications},
+  volume    = {39},
+  number    = {8},
+  pages     = {7067--7083},
+  year      = {2012},
+  doi       = {10.1016/j.eswa.2012.01.039}
+}
+
+@article{taieb2015bias,
+  author    = {{Ben Taieb}, Souhaib and Atiya, Amir F.},
+  title     = {A bias and variance analysis for multistep-ahead time series
+               forecasting},
+  journal   = {IEEE Transactions on Neural Networks and Learning Systems},
+  volume    = {27},
+  number    = {1},
+  pages     = {62--76},
+  year      = {2015},
+  doi       = {10.1109/TNNLS.2015.2411629}
+}
+
+% ── Agrupamento de séries temporais ─────────────────────────────────────────
+
+@article{keogh2005exact,
+  author    = {Keogh, Eamonn and Ratanamahatana, Chotirat Ann},
+  title     = {Exact indexing of dynamic time warping},
+  journal   = {Knowledge and Information Systems},
+  volume    = {7},
+  number    = {3},
+  pages     = {358--386},
+  year      = {2005},
+  doi       = {10.1007/s10115-004-0154-9}
+}
+
+@article{aghabozorgi2015time,
+  author    = {Aghabozorgi, Saeed and {Seyed Shirkhorshidi}, Ali and {Ying Wah}, Teh},
+  title     = {Time-series clustering --- a decade review},
+  journal   = {Information Systems},
+  volume    = {53},
+  pages     = {16--38},
+  year      = {2015},
+  doi       = {10.1016/j.is.2015.04.007}
+}
+
+% ── Previsão de finanças públicas ────────────────────────────────────────────
+
+@article{buettner2010revenue,
+  author    = {Buettner, Thiess and Kauder, Bjorn},
+  title     = {Revenue forecasting practices: differences across countries
+               and consequences for forecasting performance},
+  journal   = {Fiscal Studies},
+  volume    = {31},
+  number    = {3},
+  pages     = {313--340},
+  year      = {2010},
+  doi       = {10.1111/j.1475-5890.2010.00114.x}
+}
+
+@article{jonung2006fiscal,
+  author    = {Jonung, Lars and Larch, Martin},
+  title     = {Improving fiscal policy in the {EU}: the case for independent
+               forecasts},
+  journal   = {Economic Policy},
+  volume    = {21},
+  number    = {47},
+  pages     = {491--534},
+  year      = {2006},
+  doi       = {10.1111/j.1468-0327.2006.00162.x}
+}
+
+@article{frankel2011over,
+  author    = {Frankel, Jeffrey A.},
+  title     = {Over-optimism in forecasts by official budget agencies and its
+               implications},
+  journal   = {Oxford Review of Economic Policy},
+  volume    = {27},
+  number    = {4},
+  pages     = {536--562},
+  year      = {2011},
+  doi       = {10.1093/oxrep/grr025}
+}
+
+% ── Referências recentes (2020–2024) ────────────────────────────────────────
+
+% Survey abrangente cobrindo Ridge, LASSO, SVR, RF, GBM e MLP para
+% previsão de séries temporais econômicas (autores brasileiros)
+@article{masini2023machine,
+  author    = {Masini, Ricardo P. and Medeiros, Marcelo C. and Mendes, Eduardo F.},
+  title     = {Machine learning advances for time series forecasting},
+  journal   = {Journal of Economic Surveys},
+  volume    = {37},
+  number    = {1},
+  pages     = {76--111},
+  year      = {2023},
+  doi       = {10.1111/joes.12429}
+}
+
+% Survey sobre modelos globais com redes neurais recorrentes:
+% avalia paradigma global vs. individual em múltiplos corpora
+@article{hewamalage2021recurrent,
+  author    = {Hewamalage, Hansika and Bergmeir, Christoph and Bandara, Kasun},
+  title     = {Recurrent neural networks for time series forecasting:
+               Current status and future directions},
+  journal   = {International Journal of Forecasting},
+  volume    = {37},
+  number    = {1},
+  pages     = {388--427},
+  year      = {2021},
+  doi       = {10.1016/j.ijforecast.2020.06.008}
+}
+
+
+
+@article{lim2021time,
+  author    = {Lim, Bryan and Zohren, Stefan},
+  title     = {Time-series forecasting with deep learning: a survey},
+  journal   = {Philosophical Transactions of the Royal Society A},
+  volume    = {379},
+  number    = {2194},
+  pages     = {20200209},
+  year      = {2021},
+  doi       = {10.1098/rsta.2020.0209}
+}
+
+@article{januschowski2020criteria,
+  author    = {Januschowski, Tim and Gasthaus, Jan and Wang, Yuyang and
+               Salinas, David and Flunkert, Valentin and
+               Bohlke-Schneider, Michael and Callot, Laurent},
+  title     = {Criteria for classifying forecasting methods},
+  journal   = {International Journal of Forecasting},
+  volume    = {36},
+  number    = {1},
+  pages     = {167--177},
+  year      = {2020},
+  doi       = {10.1016/j.ijforecast.2019.05.008}
+}
+
+@article{salinas2020deepar,
+  author    = {Salinas, David and Flunkert, Valentin and Gasthaus, Jan
+               and Januschowski, Tim},
+  title     = {{DeepAR}: Probabilistic forecasting with autoregressive
+               recurrent networks},
+  journal   = {International Journal of Forecasting},
+  volume    = {36},
+  number    = {3},
+  pages     = {1181--1191},
+  year      = {2020},
+  doi       = {10.1016/j.ijforecast.2019.07.001}
+}
+
+@inproceedings{godahewa2021monash,
+  author    = {Godahewa, Rakshitha and Bergmeir, Christoph and Webb,
+               Geoffrey I. and Hyndman, Rob J. and Montero-Manso, Pablo},
+  title     = {Monash Time Series Forecasting Archive},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)
+               Datasets and Benchmarks Track},
+  year      = {2021}
+}
+
+@inproceedings{challu2023nhits,
+  author    = {Challu, Cristian and Olivares, Kin G. and Oreshkin, Boris N.
+               and Garza Ramirez, Federico and Mergenthaler-Canseco, Max
+               and Dubrawski, Artur},
+  title     = {{NHITS}: Neural Hierarchical Interpolation for Time Series
+               Forecasting},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume    = {37},
+  number    = {6},
+  pages     = {6989--6997},
+  year      = {2023},
+  doi       = {10.1609/aaai.v37i6.25854}
+}
+
+@article{cerqueira2023evaluating,
+  author    = {Cerqueira, Vitor and Torgo, Luís and Mozetič, Igor},
+  title     = {Evaluating time series forecasting models: an empirical
+               study on performance estimation methods},
+  journal   = {Machine Learning},
+  volume    = {112},
+  number    = {6},
+  pages     = {2141--2180},
+  year      = {2023},
+  doi       = {10.1007/s10994-023-06385-0}
+}
+
+% ── Testes estatísticos ───────────────────────────────────────────────────────
+
+@article{demsar2006statistical,
+  author    = {Dem{\v{s}}ar, Janez},
+  title     = {Statistical comparisons of classifiers over multiple data sets},
+  journal   = {Journal of Machine Learning Research},
+  volume    = {7},
+  pages     = {1--30},
+  year      = {2006}
+}
+
+@article{ljung1978measure,
+  author    = {Ljung, Greta M. and Box, George E. P.},
+  title     = {On a measure of lack of fit in time series models},
+  journal   = {Biometrika},
+  volume    = {65},
+  number    = {2},
+  pages     = {297--303},
+  year      = {1978},
+  doi       = {10.1093/biomet/65.2.297}
+}
+
+@article{wilcoxon1945individual,
+  author    = {Wilcoxon, Frank},
+  title     = {Individual comparisons by ranking methods},
+  journal   = {Biometrics Bulletin},
+  volume    = {1},
+  number    = {6},
+  pages     = {80--83},
+  year      = {1945},
+  doi       = {10.2307/3001968}
+}
+
+@article{friedman1940comparison,
+  author    = {Friedman, Milton},
+  title     = {A comparison of alternative tests of significance for the
+               problem of $m$ rankings},
+  journal   = {The Annals of Mathematical Statistics},
+  volume    = {11},
+  number    = {1},
+  pages     = {86--92},
+  year      = {1940},
+  doi       = {10.1214/aoms/1177731944}
+}
+
+@article{ansari2024chronos,
+  author  = {Ansari, Abdul Fatir and Stella, Lorenzo and Turkmen, Caner and Zhang, Xiyuan and Mercado, Pedro and Shen, Huibin and Shchur, Oleksandr and Rangapuram, Syama Sundar and Arango, Sebastian Pineda and Kapoor, Shubham and Zschiegner, Jasper and Maddix, Danielle C. and Wang, Hao and Mahoney, Michael W. and Torkkola, Kari and Wilson, Andrew Gordon and Bohlke-Schneider, Michael and Wang, Yuyang},
+  title   = {Chronos: Learning the Language of Time Series},
+  journal = {Transactions on Machine Learning Research},
+  year    = {2024}
+}

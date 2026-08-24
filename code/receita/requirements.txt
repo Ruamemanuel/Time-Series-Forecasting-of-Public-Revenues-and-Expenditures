@@ -1,0 +1,27 @@
+# requirements.txt — experimento de receita
+# Versões exatas testadas em Python 3.14.2 (Windows 11, 2026-06-01)
+# Instale com: pip install -r requirements.txt
+
+# ── Dados e computação numérica ───────────────────────────────
+pandas==2.3.3
+numpy==2.4.2
+pyarrow==23.0.1
+
+# ── Modelos estatísticos e de séries temporais ───────────────
+statsmodels==0.14.6
+scipy==1.17.1
+
+# ── Machine learning ─────────────────────────────────────────
+scikit-learn==1.8.0
+lightgbm==4.6.0
+joblib==1.5.3
+
+# ── Modelo de fundação (paradigma global) ──────────────────────
+torch==2.11.0
+chronos-forecasting==2.2.2
+
+# ── Visualização ──────────────────────────────────────────────
+matplotlib==3.10.8
+
+# ── Exportação / relatórios ───────────────────────────────────
+openpyxl==3.1.5
