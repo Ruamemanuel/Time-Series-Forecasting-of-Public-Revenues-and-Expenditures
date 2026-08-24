@@ -123,7 +123,7 @@ truncada.
 ## Citação
 
 Se este trabalho for útil para sua pesquisa, considere citar o artigo (dados
-de publicação a confirmar após aceite/apresentação no ENIAC).
+de publicação a confirmar após apresentação no ENIAC).
 
 ## Licença
 
